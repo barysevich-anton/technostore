@@ -1,0 +1,201 @@
+.dropbtn {
+    display: flex;
+    background-color: transparent;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    padding: 15px;
+}
+.dropbtn_right::selection{
+    background-color: transparent;
+}
+.dropbtn_left ::selection{
+    background-color: transparent;
+}
+.dropbtn_left{
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.dropbtn_right{
+    font-size: 10px;
+    color: #C0C0C0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.admin_small_foto{
+    width: 150px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 20%;
+    margin-top: 29px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd}
+.dropdown_content a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+.overlay_bg {
+   
+    /* Скрываем подложку  */
+    opacity: 0;
+    visibility: hidden;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+    transition: .3s all;
+ }
+ 
+ 
+ /* Стили для модальных окон */
+ 
+ .modal_page {
+    
+    /* Скрываем окна  */
+    opacity: 0;
+    visibility: hidden;
+    
+    
+    /*  Установаем ширину окна  */
+    width: 100%;
+    max-width: 60%;
+    
+    /*  Центрируем и задаем z-index */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 30; /* Должен быть выше чем у подложки*/
+    
+    /*  Побочные стили   */
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2); 
+    text-align: center;
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: 0.3s all;
+ }
+ 
+ 
+ /* Стили для активных классов подложки и окна */
+ 
+ .modal_page.active,
+ .overlay_bg.active{
+    opacity: 1;
+    visibility: visible;
+ }
+ 
+ 
+ /* Стили для кнопки закрытия */
+ 
+ .modal__cross {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    fill: #444;
+    cursor: pointer;
+ }
+ 
+
+ 
+ .js_open_modal {
+    display: flex;
+    flex-direction: column;
+ }
+.modal_page svg{
+    cursor: pointer;
+}
+.towar{
+    display: flex;
+}
+
+.modal_name{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom:50px;
+}
+.modal_image{
+    width: 500px;
+}
+
+.modal_main_image{
+    width: 400px;
+}
+.flex_modal_main_page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.right_modal_main_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.padding_modal_page{
+    padding: 30px 30px 30px 30px;
+}
+.modal_main_page_opis{
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 30px;
+}
+.modal_main_page_prise{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.modal_main_page_button img{
+    width: 100px;
+}
+.modal_main_price{
+    font-size: 25px;
+    margin-right: 30px;
+}
+.modal_full_price{
+    font-size: 25px;
+    color: #999;
+    text-decoration:line-through;
+}

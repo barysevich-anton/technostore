@@ -1,0 +1,135 @@
+@import url("footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.top_navigation{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(245, 240, 240);
+    padding:0 7% 0 2%;
+    font-size: 14px;
+    align-items: center;
+}
+.top_navigation{
+    margin: 0;
+}
+.conteiner{
+    padding:0 3%;
+}
+.cont{
+    
+    display: flex;
+    flex-direction: column;
+}
+.top_nav_element{
+    font-size: 14px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.top_nav_right a{
+    text-decoration: none;
+    color: #000;
+}
+.top_nav_left a{
+    text-decoration: none;
+    color: #000;
+}
+.top_nav_element:hover{
+    background-color: #fff;
+}
+.top_nav_element_withouthover{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(245, 240, 240);
+    font-size: 14px;
+    align-items: center;
+    margin-right: -20px;
+    padding-left: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+.kosh img:hover{
+    transform: rotate(-20deg);
+
+}
+.kosh img{
+    margin-right: 10px;
+}
+.kosh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 15px;
+    padding-right: 30px;
+}
+.logo img{
+    padding: 0 15px;
+}
+.big_header_element input{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(175, 175, 175);
+    color: rgb(175, 175, 175);
+}
+.big_header_element img{
+    width: 25px;
+    margin-left: -30px;
+    
+}
+.big_header_element{
+    width: 38%;
+    display: flex;
+    align-items: center;
+}
+.top_menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color: #333;
+    color: #999;
+    font-weight: 100;
+    padding-top: 18px;
+}
+.top_menu_element{
+    text-align: center;
+    width: 10.45%;
+    align-items: center;
+    font-size: 16px;
+    height: 55px;
+    color: #fff;
+    border-bottom: 4px solid transparent;
+}
+.top_menu_element:hover{
+    border-bottom: 4px solid rgb(185, 64, 64);
+}
+.top_menu_active{
+    color: rgb(240, 207, 21);
+}
+.small_menu_element{
+    width: 7.45%;
+}
+.big_menu_element{
+    width: 13.45%;
+}
+.slider_block{
+    width: 100%;
+}
+.slider{
+    width: 100%;
+    padding-bottom: 0;
+}
+p{
+    margin: 0;
+}

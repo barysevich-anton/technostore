@@ -1,0 +1,13 @@
+.pages_marks{
+    text-align: center;
+    margin-right: 37%;
+}
+.pages_marks a{
+    text-decoration:underline;
+    font-size: 22px;
+    margin: 5px;
+    color: #777;
+}
+.pages_marks a:hover{
+    color: black;
+}
